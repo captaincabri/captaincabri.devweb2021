@@ -1,0 +1,48 @@
+/* VERSION MOBILE */
+.body {
+	background-color: #cee5e8;
+	margin : 40px;
+}
+.header {
+	min-height: 200px;
+	background-image:url("../images/mafate.jpg");
+	max-width: 1024px;
+	margin: auto;
+}
+.main {
+	max-width: 1024px;
+	margin: auto;
+}
+
+.image {
+	max-width: 100%;
+}
+
+h1 {color:red;}
+
+
+/* --------------------------------------- */
+/* VERSION PC */
+@media (min-width:1024px) {
+
+	.flex-container {
+		display:flex;
+	}
+
+	.flex-column {
+		flex-direction: column;
+	}
+
+	.flex-item {
+		align-self: stretch;
+	}
+
+	.body {margin:0;}
+
+	.footer {
+		background:url("../images/wave.svg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+} 
+
